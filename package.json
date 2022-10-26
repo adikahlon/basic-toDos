@@ -1,0 +1,15 @@
+{
+  "name": "basic-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cmd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin":{
+    "todos":"./cmd.js"
+  }
+}
