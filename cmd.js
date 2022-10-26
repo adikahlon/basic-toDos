@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { getToDos, deleteToDo, updateToDo, addToDo } = require("./todos");
 function displayToDos() {
-    console.table(getToDos());
+          console.table(getToDos());
 }
 const [, , crud, ...text] = process.argv;
 const [id] = text;
